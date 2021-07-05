@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.phone{
+    width: 50%;
+    height: 600px;
+    background: url('./img/instagram-on-iphone-12-free-mockup-2_4x.jpg');
+    background-size:cover;
+    background-position: center;
+    
+}
+.login{
+    width: 50%;
+    height: 600px;
+    background: #eaeaea;
+    padding: 40px;
+   
+}
+.login-content{
+    background: #fff;
+    height: 400px;
+    padding: 30px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 100%;
+    background: #0099CC;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.or{
+    text-align: center;
+    color: #eaeaea;
+}
+.login-content p{
+    text-align: center;
+    font-size: 18px;
+}
+.login-content p a{
+    text-decoration: none;
+}
+.forgot{
+    font-size: 14px;
+    color: #000;
+}
+.login-content .facebook{
+    color: #0099CC; 
+    padding-bottom: 20px;   
+}
+.account {
+    padding: 20px;
+    background: #fff;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.account p{
+    text-align: center;
+}
+.account a{
+   color: #0099CC; 
+   text-decoration: none;
+}
+p{
+    text-align: center;
+}
+.apps {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.app-store{
+    width: 48%;
+    background: url('./img/Appstore.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+.play-store{
+    width: 48%;
+    background: url('./img/google.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+/* Responsiveness */
+@media screen and (max-width: 400px) {
+    .container{
+        display: flex;
+        flex-direction:column-reverse;
+        width: 100%;
+    }
+    .login{
+        width: 100%;
+        padding: 10px;
+    }
+    .phone{
+        width: 100%;
+    }
+    .login .login-content{
+        padding: 10px;
+        width: 100%;
+    }
+    .login-content p{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .forgot{
+        font-size: 16px;
+        color: #000;
+    }
+}
